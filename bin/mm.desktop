@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GSMstarts
+Name[zh_CN]=启动和设置x
+#Exec=gnome-terminal --window --title "AC-GSM 窗口模式启动-设置-显示" --hide-menubar -e "bash /root/acgsm/run.sh"
+Exec=/root/gsm/bin/run.sh
+Terminal=true
+Comment= 窗口下启动监控
+Icon=/root/gsm/bin/ico/gsm.png
